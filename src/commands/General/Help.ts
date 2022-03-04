@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		const user = M.sender.jid;
 		const chitoge =
-			"https://telegra.ph/file/1f8cc7abab89035d65c20.mp4";
+			"https://telegra.ph/file/db9ace10582e475ac78eb.mp4";
 		if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
 			const categories: { [key: string]: ICommand[] } = {};
@@ -43,16 +43,16 @@ export default class Command extends BaseCommand {
 					categories[info.config.category].push(info);
 				}
 			}
-			let text = `👋🏻 (🕸️ω🕸️) Konichiwa! *@${
+			let text = `👋🏻 (༄ω༄) Konichiwa! *@${
 				user.split("@")[0]
-			}*, I'm 😌Yuri Boyka  A Whatsapp Bot Build to make your WhatsApp enyoyable.\n\nMy prefix is - "${
+			}*, I'm ༆Elaina༆  A Whatsapp Bot Build to make your WhatsApp enyoyable.\n\nMy prefix is - "${
 				this.client.config.prefix
 			}"\n\n╚━❰My  Command List❱━╝.\n\n`;
 			const keys = Object.keys(categories);
 			for (const key of keys)
-				text += `*╚━❰💙${this.client.util.capitalize(
+				text += `*╚━❰꧁${this.client.util.capitalize(
 					key
-				)}💙❱━╝*\n❐ \`\`\`${categories[key]
+				)}꧂❱━╝*\n❐ \`\`\`${categories[key]
 					.map((command) => command.config?.command)
 					.join(" , ")}\`\`\`\n\n`;
 			return void this.client.sendMessage(
@@ -65,13 +65,13 @@ export default class Command extends BaseCommand {
 					caption: `${text}*╭─「 WwE 」*
 
 *│❏ User:* *${M.sender.username}*
-
+ 𓆏
 *│❏ Prefix: #*
-
-*│❏ Name: Yuri Boyka*
-
+ 𓆏
+*│❏ Name: Elaina*
+ 𓆏
 *│❏ Owner: use #mods*
-
+ 𓆏
 *╰─────────❁ཻུ۪۪⸙*
 
 *╚»[ʜᴀᴠᴇ ɢʀᴇᴀᴛ ᴅᴀʏ]«╝*
