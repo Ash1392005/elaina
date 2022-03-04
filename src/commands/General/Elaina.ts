@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://telegra.ph/file/afe2fe4dfc45781d4fe6b.mp4";
+			"https://telegra.ph/file/cc89e0dbcdc7bf9877603.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `😈 *Yuri Boyka* 😈\n\n🍀 *Description: A WhatsApp Bot With Rich Creation Features.*\n\n🌐 *URL: https://github.com/savage341/Elaina-BOT* \n\n 📒 *Guide: https://github.com/Lord/Savage-Savage-Guides* \n`,
+				caption: `❤️ *Elaina* 🎊\n\n🍀 *Description: A WhatsApp Bot With Rich Creation Features.*\n\n🌐 *URL: https://github.com/savage341/Elaina-BOT* \n\n 📒 *Guide: https://github.com/Lord/Savage-Savage-Guides* \n`,
 			}
 		);
 	};
