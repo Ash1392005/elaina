@@ -33,7 +33,7 @@ export default class Command extends BaseCommand {
         try {
             pfp = await this.client.getProfilePicture(user)
         } catch (err) {
-            M.reply(`Profile Picture not Accessible of ${username} 😹maybe they are ugly`)
+            M.reply(`Profile Picture not Accessible of ${username} must be ugly probably`)
             pfp =
                 'https://telegra.ph/file/a598949cfa610bd6d83d0.jpg'
         }
