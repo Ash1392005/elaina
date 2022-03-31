@@ -19,19 +19,16 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        `    ♥️MY MASTER GROUPS♥️
-        
-       *♥️ELAINA support:♥️* *https://chat.whatsapp.com/Gy1JemBGs9wLjVEfzbRJ21:*
-        *♥️support♥️* INVITE LINK🎉:*https://chat.whatsapp.com/KZEG60GfpiX1rPZTfe7nnW*`,
+        `    ♥️🅼🆈 🅳🅰🆁🅻🅸🅽🅶♥️\n\n*🎇ᗰOᗷᗩ support:🎇* *🄵🄾🄻🄻🄾🅆 🄼🄴 🄾🄽 🄸🄽🅂🅃🄰 https://instagram.com/_mobasshirachaudhary_*\n\n*💫🄾🅆🄽🄴🅁 🄸🄽🅂🅃🄰💫*:*🄸🄵 🅈🄾🅄 🄵🄰🄲🄴 🄰🄽🅈 🄿🅁🄾🄱🄻🄴🄼 🄼🅂🄶 🄼🄴  https://instagram.com/falling_1392005*`,
            MessageType.text
         ))
         const n = [
-            './assets/videos/elain-git.mp4'
+            'https://c.tenor.com/OWVr3gfSSC8AAAPo/kiss-tony-stark.mp4'
         ]
         let beckylynch = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url:beckylynch }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `Sent you the support Link in personal message \n` }
+            caption: `ᗩᒪᖇEᗩᗪY ᖴIᒪᒪEᗪ YOᑌᖇ ᗪEᔕIᖇE ᗷᗩᗷE \n` }
         )
 
         }
