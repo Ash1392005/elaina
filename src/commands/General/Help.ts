@@ -45,9 +45,10 @@ export default class Command extends BaseCommand {
 			}
 			let text = `👋🏻 (༄ω༄) Konichiwa! *@${
 				user.split("@")[0]
-			}*, I'm ༆Elaina༆  A Whatsapp Bot Build to make your WhatsApp enyoyable.\n\nMy prefix is - "${
+			}*, I'm ༆ⓜⓞⓑⓐ༆ Ⓜⓞⓑⓐ ⓣⓗⓔ ⓑⓞⓣ, ⓦⓗⓞ ⓘⓢ ⓥⓔⓡⓨ ⓗⓞⓣ
+ ⓚⓘⓛⓛ ⓤ ⓦⓘⓣⓗ ⓞⓝⓔ ⓢⓗⓞⓣ, ⓘ ⓐⓜ ⓨⓞⓤⓡ ⓑⓞⓣ .\n\nMy prefix is - "${
 				this.client.config.prefix
-			}"\n\n╚━❰My  Command List❱━╝.\n\n`;
+			}"\n\n╚━❰🅼🆈 🅲🅾🅼🅼🅰🅽🅳 🅻🅸🆂🆃❱━╝.\n\n`;
 			const keys = Object.keys(categories);
 			for (const key of keys)
 				text += `*╚━❰꧁${this.client.util.capitalize(
@@ -68,14 +69,16 @@ export default class Command extends BaseCommand {
  𓆏
 *│❏ Prefix: #*
  𓆏
-*│❏ Name: Elaina*
+*│❏ Name: ⓜⓞⓑⓐ*
  𓆏
 *│❏ Owner: use #mods*
+*|❏ Owner ⓘⓝⓢⓣⓐ: https://instagram.com/falling_1392005
+*|❏ bot ⓘⓝⓢⓣⓐ: https://instagram.com/_mobasshirachaudhary_
  𓆏
 *╰─────────❁ཻུ۪۪⸙*
 
 *╚»[ʜᴀᴠᴇ ɢʀᴇᴀᴛ ᴅᴀʏ]«╝*
-📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`,
+📝 *Note: Use ${this.client.config.prefix}help <command_name> ⓣⓞ ⓜⓐⓚⓔ ⓨⓞⓤⓡ ⓛⓘⓕⓔ ⓙⓞⓨⓕⓤⓛ*`,
 					contextInfo: { mentionedJid: [user] },
 				}
 			);
