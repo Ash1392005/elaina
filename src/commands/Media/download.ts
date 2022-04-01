@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
     super(client, handler, {
       command: "download",
       description: "This will download  a song which you want🎶",
-      category: "music",
+      category: "media",
       aliases: ["dl"],
       usage: `${client.config.prefix}download [term]`,
       baseXp: 30,
